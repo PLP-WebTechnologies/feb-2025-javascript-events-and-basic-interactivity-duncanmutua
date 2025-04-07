@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Concepts Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .error {
+      color: red;
+    }
+    .success {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>JavaScript Interactive Demo</h1>
+
+  <!-- Form for Validation -->
+  <form id="myForm">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+    <button type="submit">Submit</button>
+    <p id="formMessage"></p>
+  </form>
+
+  <br>
+
+  <!-- Interactive Elements -->
+  <button id="toggleButton">Show/Hide Text</button>
+  <p id="toggleText" style="display: none;">This text appears and disappears!</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
